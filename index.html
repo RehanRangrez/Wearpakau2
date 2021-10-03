@@ -17,9 +17,9 @@
       /* z-index: 500; */
       /* overflow: hidden; */
       background-color: gray;
-      opacity: .8;
+      opacity: 0.8;
       left: 0;
-      top:0;
+      top: 0;
       display: none;
       /* transform: translateX(-100%); */
       transition: width 2s, height 115s ease-in;
@@ -48,14 +48,16 @@
         />
         <button><img src="styles/images/searchicon.svg" alt="" /></button>
       </div>
+      <div class="cartcontainer">
+        <img src="styles/images/carticon.svg" alt="" />
+      </div>
       <div class="profilecontainer">
         <img src="styles/images/profileicon.svg" alt="" />
       </div>
       <div class="nimish">
         <!-- <h1>helloworf</h1> -->
-
       </div>
-      
+
       <ul class="navlinks">
         <div class="closebutton">
           <img src="styles/images/closeicon.svg" alt="" />
@@ -68,8 +70,28 @@
     </nav>
 
     <!-- *****placeholder container -->
-    <div class="placeholdercontainer"></div>
-  
+    <!-- <div class="placeholdercontainer"></div> -->
+
+    <!-- ************form -->
+    <div class="outerformcontainer">
+      <div class="formcontainer">
+        <h2 class="formheading">Log in to your account</h2>
+        <form action="" class="loginform">
+          <div class="inputcontainer">
+            <label for="email" class="emaillabel" >Your email</label>
+            <input type="email" name="email" maxlength='30'/>
+          </div>
+          <div class="inputcontainer">
+            <label for="password" class="passwordlabel">Password</label>
+            <input type="password" name='password'/>
+          </div>
+          <input type="submit" class="submitbutton" value="Log in">
+          <span class="forgotpass"><a href="#">Forgot password?</a></span>
+          <span class='formwarning'>Incorrect Login Details</span>
+        
+        </form>
+      </div>
+    </div>
 
     <!-- *********footer -->
 

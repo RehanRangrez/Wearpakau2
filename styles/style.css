@@ -4,6 +4,8 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 nav {
@@ -17,10 +19,10 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   height: 8vh;
-  padding: 10px 20px;
-  border-bottom: 1px solid #A878D8;
-  -webkit-box-shadow: 1px 1px  gray;
-          box-shadow: 1px 1px  gray;
+  padding: 10px 50px;
+  border-bottom: 1px solid #a878d8;
+  -webkit-box-shadow: 1px 1px gray;
+          box-shadow: 1px 1px gray;
 }
 
 .logo {
@@ -105,7 +107,7 @@ nav {
 
 .closebutton {
   position: absolute;
-  top: 0;
+  top: 5%;
   right: -20%;
   width: 40px;
   height: 40px;
@@ -193,8 +195,81 @@ nav {
   width: 100%;
 }
 
+.cartcontainer img {
+  width: 80%;
+}
+
 .placeholdercontainer {
   height: 80vh;
+}
+
+.outerformcontainer {
+  height: 82vh;
+  width: 100%;
+  position: relative;
+}
+
+.outerformcontainer .formcontainer {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40%;
+  height: 60%;
+  border: 1px solid #a878d8;
+  border-radius: 15px;
+}
+
+.outerformcontainer .formcontainer .formheading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.outerformcontainer .formcontainer .loginform {
+  display: block;
+  text-align: center;
+}
+
+.outerformcontainer .formcontainer .loginform .inputcontainer {
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 8px;
+  text-align: start;
+}
+
+.outerformcontainer .formcontainer .loginform .inputcontainer label {
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 100px;
+}
+
+.outerformcontainer .formcontainer .loginform .inputcontainer input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 100%;
+  padding: 3px 7px;
+  height: 30px;
+  border: 1px solid #a878d8;
+}
+
+.outerformcontainer .formcontainer .loginform .submitbutton {
+  display: block;
+  height: 30px;
+  width: 50%;
+  margin: 10px auto;
+  background-color: #a878d8;
+  outline: none;
+  color: #f0d8f0;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 footer {
@@ -271,7 +346,7 @@ footer .footercol3 .footersocialicons li a img {
 
 @media only screen and (max-width: 768px) {
   .placeholdercontainer {
-    background: red;
+    background: white;
   }
   footer {
     padding: 20px 40px;
@@ -283,7 +358,13 @@ footer .footercol3 .footersocialicons li a img {
 
 @media only screen and (max-width: 480px) {
   .placeholdercontainer {
-    background: yellow;
+    background: white;
+  }
+  .cartcontainer {
+    display: none;
+  }
+  nav {
+    padding: 10px 20px;
   }
   nav .searchcontainer {
     width: 150px;
