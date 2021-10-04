@@ -220,6 +220,7 @@ nav {
   height: 60%;
   border: 1px solid #a878d8;
   border-radius: 15px;
+  padding: 10px;
 }
 
 .outerformcontainer .formcontainer .formheading {
@@ -229,6 +230,7 @@ nav {
 }
 
 .outerformcontainer .formcontainer .loginform {
+  margin-top: 10px;
   display: block;
   text-align: center;
 }
@@ -257,8 +259,8 @@ nav {
   padding: 3px 7px;
   height: 35px;
   border: 1px solid #a878d8;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
   border-radius: 10px;
 }
 
@@ -394,6 +396,27 @@ footer .footercol3 .footersocialicons li a img {
   .placeholdercontainer {
     background: white;
   }
+  .outerformcontainer .formcontainer {
+    width: 50%;
+  }
+  .outerformcontainer .formcontainer .formheading {
+    margin: 10px 0;
+  }
+  .outerformcontainer .formcontainer .loginform {
+    margin-top: 20px;
+  }
+  .outerformcontainer .formcontainer .loginform .inputcontainer {
+    width: 70%;
+  }
+  .outerformcontainer .formcontainer .loginform .inputcontainer label {
+    margin-bottom: 3px;
+  }
+  .outerformcontainer .formcontainer .loginform .submitbutton {
+    width: 70%;
+  }
+  .outerformcontainer .formcontainer .loginform .alreadyhaveacc {
+    margin-top: 10px;
+  }
   footer {
     padding: 20px 40px;
   }
@@ -433,6 +456,25 @@ footer .footercol3 .footersocialicons li a img {
   }
   .closebutton {
     right: -50px;
+  }
+  .outerformcontainer .formcontainer {
+    width: 80%;
+  }
+  .outerformcontainer .formcontainer .formheading {
+    margin: 8px 0;
+    font-size: 22px;
+  }
+  .outerformcontainer .formcontainer .loginform {
+    margin-top: 20px;
+  }
+  .outerformcontainer .formcontainer .loginform .inputcontainer {
+    width: 80%;
+  }
+  .outerformcontainer .formcontainer .loginform .submitbutton {
+    width: 80%;
+  }
+  .outerformcontainer .formcontainer .loginform .alreadyhaveacc {
+    margin-top: 15px;
   }
   footer {
     padding: 10px 20px;
