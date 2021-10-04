@@ -8,6 +8,15 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -490,6 +499,19 @@ footer .footercol3 .footersocialicons li a img {
   }
   footer .footerlinkscontainer div {
     margin-bottom: 20px;
+  }
+  footer .footercoltitle {
+    font-size: 13px;
+  }
+  footer .footercollinklist li {
+    margin-top: 1px;
+  }
+  footer .footercollinklist li a {
+    font-size: 11px;
+  }
+  footer .footercol3 .footersocialicons li a img {
+    width: 20px;
+    height: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

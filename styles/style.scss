@@ -7,6 +7,15 @@ $montserrat: "Montserrat", sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 }
+html {
+  height: -webkit-fill-available;
+}
+
+body{
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
 
 nav {
   display: flex;
@@ -442,6 +451,19 @@ footer {
       div {
         margin-bottom: 20px;
       }
+    }
+    .footercoltitle{
+      font-size: 13px;
+    }
+    .footercollinklist li {
+      margin-top: 1px;
+      a {
+      font-size: 11px;
+    }}
+
+    .footercol3 .footersocialicons li a img {
+      width: 20px;
+      height: 20px;
     }
   }
 }
