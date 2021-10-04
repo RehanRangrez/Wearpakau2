@@ -216,7 +216,7 @@ nav {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 40%;
+  width: 30%;
   height: 60%;
   border: 1px solid #a878d8;
   border-radius: 15px;
@@ -245,7 +245,9 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 13px;
-  margin-bottom: 100px;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 3px;
 }
 
 .outerformcontainer .formcontainer .loginform .inputcontainer input {
@@ -253,15 +255,26 @@ nav {
   font-weight: 500;
   width: 100%;
   padding: 3px 7px;
-  height: 30px;
+  height: 35px;
   border: 1px solid #a878d8;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  border-radius: 10px;
+}
+
+.outerformcontainer .formcontainer .loginform .inputcontainer input:focus {
+  outline: none;
+  border: 1px solid #a878d8;
+  -webkit-box-shadow: 5px 5px 1px #9060a8;
+          box-shadow: 5px 5px 1px #9060a8;
 }
 
 .outerformcontainer .formcontainer .loginform .submitbutton {
   display: block;
-  height: 30px;
+  height: 35px;
   width: 50%;
-  margin: 10px auto;
+  margin: 15px auto;
+  border-radius: 10px;
   background-color: #a878d8;
   outline: none;
   color: #f0d8f0;
@@ -270,6 +283,39 @@ nav {
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.outerformcontainer .formcontainer .loginform .forgotpass {
+  margin: 5px 0;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.outerformcontainer .formcontainer .loginform .forgotpass a {
+  text-decoration: none;
+  color: #a878d8;
+}
+
+.outerformcontainer .formcontainer .loginform .formwarning {
+  color: #f85f5f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.outerformcontainer .formcontainer .loginform .alreadyhaveacc {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  display: block;
+}
+
+.outerformcontainer .formcontainer .loginform .alreadyhaveacc p a {
+  color: #a878d8;
+  text-decoration: none;
 }
 
 footer {
