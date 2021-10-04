@@ -11,11 +11,10 @@ html {
   height: -webkit-fill-available;
 }
 
-body{
+body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
 }
-
 
 nav {
   display: flex;
@@ -205,7 +204,7 @@ nav {
           font-family: $montserrat;
           font-weight: 600;
           font-size: 13px;
-          display:block;
+          display: block;
           margin-bottom: 5px;
           margin-left: 3px;
         }
@@ -242,30 +241,30 @@ nav {
         cursor: pointer;
       }
       .forgotpass {
-        margin:5px 0;
+        margin: 5px 0;
         display: block;
         font-family: $montserrat;
         font-size: 13px;
         font-weight: 500;
         a {
           text-decoration: none;
-          color:#a878d8;
+          color: #a878d8;
         }
       }
-      .formwarning{
-        color:rgb(248, 95, 95);
+      .formwarning {
+        color: rgb(248, 95, 95);
         font-family: $montserrat;
-        font-size:13px;
-        font-weight:500;
+        font-size: 13px;
+        font-weight: 500;
       }
-      .alreadyhaveacc{
+      .alreadyhaveacc {
         margin-top: 30px;
         font-family: $montserrat;
         font-size: 13px;
         font-weight: 400;
         display: block;
-        p a{
-          color:#a878d8;
+        p a {
+          color: #a878d8;
           text-decoration: none;
         }
       }
@@ -337,34 +336,29 @@ footer {
     background: white;
   }
 
-
-
-.outerformcontainer{
-  .formcontainer{
-    width: 50%;
-    .formheading{
-      margin: 10px 0;
-    }
-    .loginform{
-      margin-top: 20px; 
-      .inputcontainer{
-        width: 70%;
-        label{
-          margin-bottom: 3px;
+  .outerformcontainer {
+    .formcontainer {
+      width: 50%;
+      .formheading {
+        margin: 10px 0;
+      }
+      .loginform {
+        margin-top: 20px;
+        .inputcontainer {
+          width: 70%;
+          label {
+            margin-bottom: 3px;
+          }
         }
-       
-      }
-      .submitbutton{
-        width: 70%;
-      }
-      .alreadyhaveacc{
-        margin-top: 10px;
+        .submitbutton {
+          width: 70%;
+        }
+        .alreadyhaveacc {
+          margin-top: 10px;
+        }
       }
     }
-
   }
-}
-
 
   footer {
     padding: 20px 40px;
@@ -416,30 +410,27 @@ footer {
     right: -50px;
   }
 
-  .outerformcontainer{
-    .formcontainer{
+  .outerformcontainer {
+    .formcontainer {
       width: 80%;
-      .formheading{
+      .formheading {
         margin: 8px 0;
-        font-size:22px;
+        font-size: 22px;
       }
-      .loginform{
+      .loginform {
         margin-top: 20px;
-        .inputcontainer{
+        .inputcontainer {
           width: 80%;
         }
-        .submitbutton{
+        .submitbutton {
           width: 80%;
         }
-        .alreadyhaveacc{
+        .alreadyhaveacc {
           margin-top: 15px;
         }
       }
     }
   }
-
-
-
 
   footer {
     padding: 10px 20px;
@@ -452,14 +443,15 @@ footer {
         margin-bottom: 20px;
       }
     }
-    .footercoltitle{
+    .footercoltitle {
       font-size: 13px;
     }
     .footercollinklist li {
       margin-top: 1px;
       a {
-      font-size: 11px;
-    }}
+        font-size: 11px;
+      }
+    }
 
     .footercol3 .footersocialicons li a img {
       width: 20px;

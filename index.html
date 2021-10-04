@@ -45,6 +45,7 @@
           type="text"
           placeholder="What are you looking for?"
           name="search"
+          autocomplete="off"
         />
         <button><img src="styles/images/searchicon.svg" alt="" /></button>
       </div>
@@ -79,7 +80,12 @@
         <form action="" class="loginform">
           <div class="inputcontainer">
             <label for="email" class="emaillabel">Your email</label>
-            <input type="email" name="email" maxlength="30" />
+            <input
+              type="email"
+              name="email"
+              autocomplete="off"
+              maxlength="30"
+            />
           </div>
           <div class="inputcontainer">
             <label for="password" class="passwordlabel">Password</label>
@@ -88,7 +94,9 @@
           <input type="submit" class="submitbutton" value="Log in" />
           <span class="forgotpass"><a href="#">Forgot password?</a></span>
           <span class="formwarning">Incorrect Login Details</span>
-          <span class="alreadyhaveacc"><p>Already have an account? <a href="">Sign in</a></p></span>
+          <span class="alreadyhaveacc"
+            ><p>Already have an account? <a href="">Sign in</a></p></span
+          >
         </form>
       </div>
     </div>
